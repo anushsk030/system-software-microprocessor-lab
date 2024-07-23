@@ -183,7 +183,7 @@ void priority() {
 
 int main() {
   int choice;
-  do {
+  do{
   printf("\n");
         printf("Enter the Choice 1.FCFS   2.SJF    3.PRIORITY  4.Round Robin 5.Exit\n");
         scanf("%d", &choice);
