@@ -75,12 +75,12 @@ void main() {
         printf("Object Code: %s\n", objectCode);
         fprintf(output, "%s\n", objectCode);
 
-       /* if (length + strlen(objectCode) > 60) {
+        if (length + strlen(objectCode) > 60) {
             fprintf(objectcode, "T^%06d^%02X^%s\n", textStartAddr, length / 2, textRecord);
             strcpy(textRecord, "");
             textStartAddr = locctr;
             length = 0;
-        }*/
+        }
 
         if (strlen(objectCode) > 0) {
             strcat(textRecord, objectCode);
